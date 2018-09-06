@@ -12,7 +12,7 @@
 export function pageLinkFocus(element, config) {
   config = config || {};
 
-  var className = config.className || 'js-focus-hidden';
+  const className = config.className || 'js-focus-hidden';
   var savedTabIndex = element.tabIndex;
 
   element.tabIndex = -1;

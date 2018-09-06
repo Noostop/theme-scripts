@@ -8,7 +8,8 @@
     "test": "jest",
     "bootstrap": "yarn && lerna bootstrap",
     "build": "lerna run build",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "lint": "yarn eslint packages/*/*.js"
   },
   "repository": "https://github.com/Shopify/theme-scripts",
   "keywords": [
@@ -28,6 +29,7 @@
     "jest": "^23.0.1",
     "jest-puppeteer": "^3.0.1",
     "lerna": "^2.5.1",
+    "prettier": "^1.14.2",
     "puppeteer": "^1.4.0"
   },
   "workspaces": [
