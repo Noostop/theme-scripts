@@ -1,0 +1,6 @@
+node_modules/
+jest.cong.js
+packages/*.test.js
+packages/*.*.test.js
+paskages/rollup.config.js
+
