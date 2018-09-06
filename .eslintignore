@@ -1,6 +1,4 @@
 node_modules/
-jest.cong.js
-packages/*.test.js
-packages/*.*.test.js
+dist/
 paskages/rollup.config.js
 
